@@ -1,0 +1,41 @@
+<html>
+    <head>
+    </head>
+
+    <body>
+        {{>navbarAdmin}}
+
+        <div class="container">
+            <h1>CONTACT QUERIES</h1>
+            <br>
+            <br>
+        </div>
+
+        <div class="container">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Query</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {{#contacts}}
+                    <tr>
+                        <td class='name' id='name'>{{name}}</td>
+                        <td class='email' id='email'>{{email}}</td>
+                        <td class='comments' id='comments'>{{comments}}</td>
+                        <td>
+                            <form action="/adminContact" method="post">
+                            <input type="hidden" name="contactId" value="{{_id}}">
+                            <button class="btn rounded-pill btn-danger" type="submit">Delete Query</button>
+                            </form>
+                        </td>
+                    </tr>
+                {{/contacts}}
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

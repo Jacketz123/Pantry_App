@@ -1,0 +1,45 @@
+<html>
+    <head>
+    </head>
+
+    <body>
+        {{>navbarAdmin}}
+
+        <div class="container">
+            <h1>ADMIN INVENTORY</h1>
+            <br>
+            <br>
+        </div>
+
+        <div class="container">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Food</th>
+                        <th>Quantity</th>
+                        <th>Weight(g)</th>
+                        <th>Date Harvested</th>
+                        <th>Expiry Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {{#donations}}
+                    <tr>
+                        <td class='name' id='name'>{{name}}</td>
+                        <td class='quantity' id='quantity'>{{quantity}}</td>
+                        <td class='weight' id='weight'>{{weight}}</td>
+                        <td class='dateHarvest' id='dateHarvest'>{{dateHarvest}}</td>
+                        <td class='dateExpiry' id='dateExpiry'>{{dateExpiry}}</td>
+                        <td>
+                            <form action="/adminInventory" method="post">
+                            <input type="hidden" name="donationId" value="{{_id}}">
+                            <button class="btn rounded-pill btn-danger" type="submit">Delete Donation</button>
+                            </form>
+                        </td>
+                    </tr>
+                {{/donations}}
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

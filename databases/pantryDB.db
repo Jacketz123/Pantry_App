@@ -1,0 +1,9 @@
+{"name":"Pear","quantity":"15","weight":"150","dateHarvest":"2024-04-17","dateExpiry":"2024-04-23","claimed":"false","pantry":"","_id":"4yCpr7mxC7N5ArDx"}
+{"name":"Grapes","quantity":"50","weight":"200","dateHarvest":"2024-04-16","dateExpiry":"2024-04-21","claimed":"false","pantry":"","_id":"9KluE3wKXjNKd5GC"}
+{"name":"Kiwi","quantity":"40","weight":"280","dateHarvest":"2024-04-14","dateExpiry":"2024-04-21","claimed":"false","pantry":"","_id":"By8ta6w7PPB0vea2"}
+{"name":"Limes","quantity":"50","weight":"500","dateHarvest":"2024-04-19","dateExpiry":"2024-04-26","claimed":"true","pantry":"WestEndPantry","_id":"K42eX3kXFAAIQnUU"}
+{"name":"Bananas","quantity":"60","weight":"700","dateHarvest":"2024-04-19","dateExpiry":"2024-04-26","claimed":"true","pantry":"SouthsidePantry","_id":"Pxrbp3tqFcnepcr9"}
+{"name":"Lemons","quantity":"40","weight":"300","dateHarvest":"2024-04-19","dateExpiry":"2024-04-26","claimed":"true","pantry":"WestEndPantry","_id":"RyiZv93pOg2G4YAp"}
+{"name":"Apples","quantity":"40","weight":"600","dateHarvest":"2024-04-17","dateExpiry":"2024-04-24","claimed":"false","pantry":"","_id":"akepWCtVEiElA6z3"}
+{"name":"Turnip","quantity":"40","weight":"600","dateHarvest":"2024-04-18","dateExpiry":"2024-04-26","claimed":"false","pantry":"","_id":"fiC37D7hnULqu39d"}
+{"name":"Grapefruit","quantity":"50","weight":"700","dateHarvest":"2024-04-20","dateExpiry":"2024-04-28","claimed":"false","pantry":"","_id":"Nm3ogUmr0t3IyNyk"}

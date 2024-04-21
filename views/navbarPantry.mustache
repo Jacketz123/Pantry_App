@@ -1,0 +1,40 @@
+<html>
+    <head>
+        {{>header}}
+
+        <style>
+          .navbar {
+          background-color: #7db4b6; /* Set the background */
+          padding: 10px; /* Add some padding for better appearance */
+        }
+
+        /* CSS for navbar links */
+        .navbar a {
+          color: white; /* Set the color of the text to white */
+          text-decoration: none; /* Remove default underline */
+          padding: 10px 15px; /* Add padding to the links */
+        }
+
+        
+      </style>
+    </head>
+
+    <body>
+        <!--Main Navbar-->
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">The Scottish Pantry Network - Pantry</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class><a href="/pantryHome">View Central Donations</a></li>
+              <li class><a href="/pantryClaimed">View Claimed Donations</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+            </ul>
+          </div>
+        </nav>
+    </body>
+</html>
