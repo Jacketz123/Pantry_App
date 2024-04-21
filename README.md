@@ -50,3 +50,26 @@ Here is a list of all the required dependencies:
 All of these can be installed by opening the terminal, and simply typing:   npm install (name)
 
 For example:   npm install mustache-express
+
+
+Features Implemented
+
+-	Registering an Account
+-	Logging into an Account
+-	Submitting a Contact Form
+-	Registered Users can post a Donation while logged in
+-	Verification for Logged In Users to access donate page
+-	Administrator Authorization on selected pages
+-	Separate Authorisation for Pantries on selected pages
+-	Pantry: View Central Donation List
+-	Pantry: Claim Donations
+-	Pantry: View Own Claimed Donations
+-	Pantry: Unclaim Donations
+-	Donations delete automatically when past expiry date
+-	Admin: Can View a list of Users and Delete Users
+-	Admin: Can Create Privileged User (admin or pantry)
+-	Admin: Can View a list of all Donations and Delete Donations
+-	Admin: Can View a list of queries submitted by guests
+-	Logout Function
+-	JWT Authentication with cookies
+
